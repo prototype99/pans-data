@@ -13,7 +13,7 @@ CREATE TABLE data (
   key id (id)
 );
 
-LOAD DATA LOCAL INFILE '/home/seirra/Documents/pans/data.csv'
+LOAD DATA LOCAL INFILE '/home/seirra/Documents/sql/pans/data.csv'
 INTO TABLE data
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
